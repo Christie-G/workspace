@@ -4,12 +4,14 @@ body {
 }
 
 #workspace {
-    background: #222 url('img/cork.jpg') center center no-repeat;
-    background-size:cover;
+    background: gray;
+    background-image: url('../img/cork.jpg');
+
     height:100%;
     text-align: center;
     display: flex;
     align-items: center;
+   /* cursor: move;*/
 }
 
 
@@ -17,4 +19,24 @@ h1{
     color:white;
     text-shadow: 2px 2px 5px gray;
     font-family: 'Fjalla One', sans-serif;
+}
 
+.narrow {
+    width: 200px;
+}
+
+
+.card-header {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: white;
+    height: 600 px;
+    background-color: #373a3c;
+    padding: 3px;
+    font-weight: 400;
+
+}
+
+.card {
+    border-radius: 5px;
+}
