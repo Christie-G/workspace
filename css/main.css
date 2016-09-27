@@ -21,11 +21,19 @@ h1{
     font-family: 'Fjalla One', sans-serif;
 }
 
-.narrow {
-    width: 200px;
+
+.card {
+    border-radius: 5px;
+    resize: both;
+    overflow: hidden;
+    border: none;
+
 }
 
-
+.card-block {
+    padding: 5px;
+    position: relative;
+}
 .card-header {
     font-size: 1rem;
     line-height: 1.5;
@@ -34,9 +42,19 @@ h1{
     background-color: #373a3c;
     padding: 3px;
     font-weight: 400;
+    opacity: .5,
 
 }
 
-.card {
-    border-radius: 5px;
+.narrow {
+  width: 200px;
+
+ }
+.wide {
+  width: 600px;
+
+ }
+
+img {
+
 }
