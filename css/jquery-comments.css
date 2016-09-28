@@ -8,6 +8,7 @@ http://viima.github.io/jquery-comments/*/
 .jquery-comments * {
 	box-sizing: border-box;
 	text-shadow: none;
+    text-align: left
 }
 
 .jquery-comments a {
@@ -69,15 +70,15 @@ http://viima.github.io/jquery-comments/*/
 
 .jquery-comments .profile-picture {
 	float: left;
-	width: 3.6rem;
-	height: 3.6rem;
+	width: 2.6rem;
+	height: 2.6rem;
 	max-width: 50px;
 	max-height: 50px;
 }
 
 .jquery-comments i.profile-picture {
-	font-size: 3.4em;
-	text-align: center;
+	font-size: 2.4em;
+	text-align: left;
 }
 
 .jquery-comments .profile-picture.round {
@@ -203,7 +204,7 @@ http://viima.github.io/jquery-comments/*/
 .jquery-comments .textarea-wrapper .control-row > span {
 	float: right;
 
-	color: #FFF;
+	color: #eee;
 	padding: 0 1em;
 	font-size: 1em;
 	line-height: 1.6em;
@@ -266,7 +267,7 @@ http://viima.github.io/jquery-comments/*/
 	padding: 0 1em;
 	cursor: pointer;
 	font-weight: bold;
-	text-align: center;
+	text-align: left;
 
 	-webkit-user-select: none;
 	-moz-user-select: none;
@@ -371,7 +372,7 @@ http://viima.github.io/jquery-comments/*/
 .jquery-comments .no-data {
 	display: none;
 	margin: 1em;
-	text-align: center;
+	text-align: left;
 	font-size: 1.5em;
 	color: #CCC;
 }
@@ -554,7 +555,7 @@ http://viima.github.io/jquery-comments/*/
 	height: 1px;
 	float: left;
 
-	width: calc(3.6em + .5em);	/* Profile picture width plus margin */
+	width: calc(2.6em + .5em);	/* Profile picture width plus margin */
 	max-width: calc(50px + .5em);	/* Profile picture max width plus margin */
 }
 
@@ -638,7 +639,7 @@ http://viima.github.io/jquery-comments/*/
 .jquery-comments .droppable-overlay .droppable-container {
 	display: table-cell;
 	vertical-align: middle;
-	text-align: center;
+	text-align: left;
 }
 
 .jquery-comments .droppable-overlay .droppable-container .droppable {
