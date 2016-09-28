@@ -48,6 +48,7 @@ h1{
 
 .narrow {
   width: 200px;
+  height: 300px;
 
  }
 .wide {
@@ -78,4 +79,10 @@ img {
 
     margin: none;
 
+}
+
+#projectName {
+    color: white;
+    font-weight: 300;
+    margin-right:40px;
 }
