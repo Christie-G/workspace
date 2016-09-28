@@ -1,0 +1,28 @@
+***fix nav bar
+	break out menu items into collapsable
+	add assets groups under project 
+
+	add suggest project to menu (use modal or div mod)
+
+***community
+disqus message boards
+
+***apps
+	make a mock storyboad app
+	(add divs with images and text and export the html to a variable
+
+***create demo walkthrough
+	inital screens
+		1. my projects
+		2. browse open projects
+	load a project into variable 
+		my var=activeProject
+		activeProject="projectId"
+			(have the different projects map to folder directories for right now)
+			
+		
+
+***sample data
+
+	mock storyboards
+

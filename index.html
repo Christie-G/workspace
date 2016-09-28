@@ -22,40 +22,44 @@
 <body>
     <section id="nav">
         <nav class="navbar navbar-dark bg-inverse navbar-full" id="nav-main">
-            <a class="navbar-brand" href="#"><i class="fa fa-forward"></i></a>
-            <ul class="nav navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#" id="imagesLaunch">Project </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Apps</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Community</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-            </ul>
+            <a class="navbar-brand" href="#">Media Factory<i class="fa fa-forward"></i></a>
+
+
+
+                    <div class="btn-group">
+  <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Projects
+  </button>
+  <div class="dropdown-menu">
+        <h6 class="dropdown-header">Information</h6>
+        <a href="#" class="dropdown-item" id="descriptionLaunch">Description</a>
+        <div class="dropdown-divider"></div>
+        <h6 class="dropdown-header">Assets</h6>
+
+        <a href="#" class="dropdown-item" id="imagesLaunch">Images</a>
+
+  </div>
+</div>
+
+<div class="btn-group">
+  <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Community
+  </button>
+  <div class="dropdown-menu">
+    <h6 class="dropdown-header">Dropdown header</h6>
+  <a class="dropdown-item" href="#">Action</a>
+  <a class="dropdown-item" href="#">Another action</a>
+  </div>
+</div>
+
 
         </nav>
     </section>
     <section id="main">
     <div id="workspace">
 
-        <div class="card wide" id="descriptioncard" draggable=true>
-
-            <div class="card-header">Description
-                <a href="#descriptionblock" data-toggle="collapse" aria-expanded="true" >
-                    <i class="fa fa-compress pull-right" aria-hidden="true"></i></a>
-            </div>
-
-            <div class="card-block collapse in" id="descriptionblock">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sodales ex ac vestibulum vehicula. Praesent ante ipsum, tempor in massa id, pulvinar consequat magna. Cras rhoncus venenatis porta. Quisque est arcu, sollicitudin ac elit quis, malesuada feugiat purus. Morbi nisl nulla, tempor eu eros nec, tempus interdum mauris. Sed at tortor felis. In hac habitasse platea dictumst. Quisque eleifend ipsum eget justo congue sodales. Etiam tempus pulvinar lorem, eget dignissim orci </p>
 
         </div>
-
-    </div>
 </section>
 
 
@@ -65,20 +69,10 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
 
   <script src="js/imagescard.js"></script>
+  <script src="js/descriptioncard.js"></script>
 
 <!--    greensock controls -->
-<script>
-    Draggable.create(".card", {
-        type:"top,left",
-        edgeResistance:0.5,
-        throwProps:true,
-        bounds:"#workspace",
 
-    });
-
-
-
-</script>
 
 
     </body>

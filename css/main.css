@@ -58,3 +58,24 @@ h1{
 img {
 
 }
+
+.navbar .fa {
+    margin-left: 14px;
+}
+
+.dropdown-header {
+    color:black;
+    padding-left: 4px;
+    line-height: 50%;
+}
+
+.dropdown-menu {
+  line-height: 50%;
+}
+
+.dropdown-item {
+
+
+    margin: none;
+
+}
