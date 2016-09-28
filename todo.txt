@@ -11,6 +11,8 @@ disqus message boards
 	make a mock storyboad app
 	(add divs with images and text and export the html to a variable
 
+        http://camanjs.com/examples/ image editing app
+
 ***create demo walkthrough
 	inital screens
 		1. my projects
