@@ -17,7 +17,7 @@ a .hover{ color:inherit;}
 
 #maincover {
     background: gray;
-    background: url('/img/map.jpeg') no-repeat;
+    background: url('img/map.png') no-repeat;
     background-position: center center;
     background-repeat: no-repeat;
     height:100%;
