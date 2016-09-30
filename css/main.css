@@ -8,6 +8,8 @@ hmtl,
 body {
     height=100%;   
 }
+
+
 a { color:inherit;}
 a .link{ color:inherit;}
 a .visited{ color:inherit;}
@@ -15,7 +17,7 @@ a .hover{ color:inherit;}
 
 #maincover {
     background: gray;
-    background: url('/img/worldMap_styled2.jpg.jpeg') no-repeat;
+    background: url('/img/worldMap_styled.jpeg') no-repeat;
     background-position: center center;
     background-repeat: no-repeat;
     height:100%;
